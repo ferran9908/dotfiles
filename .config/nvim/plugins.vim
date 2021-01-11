@@ -26,5 +26,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 " For finding root of the project - SUPPORTS FZF
 Plug 'airblade/vim-rooter'
-
+" Highlights color codes
+Plug 'norcalli/nvim-colorizer.lua'
+" Show indentation guides
+Plug 'nathanaelkane/vim-indent-guides'
 call plug#end()

@@ -91,3 +91,12 @@ nnoremap <leader>b :Buffers<CR>
 
 " Remove highlights
 nnoremap <leader>n :nohl<CR>
+
+" quit
+nnoremap <leader>q :q<CR>
+nnoremap <leader>qa :qa<CR>
+
+" Alternate to save
+nnoremap <C-s> :w<CR>
+nnoremap <leader>s :w<CR>
+

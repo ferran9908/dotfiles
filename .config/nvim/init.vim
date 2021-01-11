@@ -16,3 +16,5 @@ source ~/.config/nvim/plug-config/nerdcommenter.vim
 source ~/.config/nvim/plug-config/closetags.vim
 source ~/.config/nvim/plug-config/cutlass.vim
 source ~/.config/nvim/plug-config/fzf.vim
+source ~/.config/nvim/plug-config/nvim-colorizer.vim
+source ~/.config/nvim/plug-config/indent-guide.vim
