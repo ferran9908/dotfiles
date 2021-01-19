@@ -7,8 +7,6 @@
     "method": "m",
     "function": ""
   },
-  "snippets.priority": 1,
-  //"yank.priority": 1,
   "suggest.languageSourcePriority": 99,
   "coc.source.file.priority": 2,
   "coc.source.around.priority": 3,
@@ -19,15 +17,9 @@
   "diagnostic.warningSign": " ",
   "diagnostic.infoSign": "",
   "diagnostic.hintSign": " ",
-  // "diagnostic.displayByAle": true,
-  // "diagnostic.virtualText": true, // this won't work with codelens when error on same line
 
   // codelens
   "codeLens.enable": true,
-  "java.referencesCodeLens.enabled": true,
-  "java.implementationsCodeLens.enabled": true,
-  "java.completion.enabled": true,
-  "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar",
 
   // list
   "list.indicator": ">",
@@ -83,7 +75,7 @@
   "pyright.disableOrganizeImports": false,
 
   // snippets
-  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
+  /* "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"], */
   //"snippets.userSnippetsDirectory": "~/.config/nvim/snips",
 
   // emmet
@@ -93,10 +85,10 @@
   },
 
   // CSS (disable since I'm also using stylelintplus)
-  "css.validate": false,
-  "less.validate": false,
-  "scss.validate": false,
-  "wxss.validate": false,
+  /* "css.validate": false, */
+  /* "less.validate": false, */
+  /* "scss.validate": false, */
+  /* "wxss.validate": false, */
 
   // explorer
   "explorer.width": 30,
@@ -118,12 +110,12 @@
     }
   },
 
-  "bookmark.sign": "",
+  /* "bookmark.sign": "", */
 
   //coc-emoji
-  "coc.source.emoji.filetypes": [
-    "markdown"
-  ],
+  /* "coc.source.emoji.filetypes": [ */
+  /*   "markdown" */
+  /* ], */
   "clangd.path": "/Users/ferran/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd"
 
   // lua

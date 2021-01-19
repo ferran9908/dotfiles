@@ -33,37 +33,135 @@ font:
   glyph_offset:
     x: 0
     y: 0
-draw_bold_text_with_bright_colors:
-  false
-  # Colors (Iceberg Dark)
+draw_bold_text_with_bright_colors: false
+
+schemes:
+  firewatch: &firewatch
+    primary:
+      background: "0x282c34"
+      foreground: "0xebebff"
+    cursor:
+      text: "0x282c34"
+      cursor: "0xebebff"
+    normal:
+      black: "0x202228"
+      red: "0xe26b73"
+      green: "0x6ac38a"
+      yellow: "0xe6c176"
+      blue: "0x5e9ccf"
+      magenta: "0xdf671f"
+      cyan: "0x51b6c3"
+      white: "0xebebff"
+    bright:
+      black: "0x525A67"
+      red: "0xC9525A"
+      green: "0x51AA71"
+      yellow: "0xCDA85D"
+      blue: "0x4583B6"
+      magenta: "0xC64E06"
+      cyan: "0x389DAA"
+      white: "0xD2D2E6"
+
+  Tomorrow_Night_Bright: &default
+    primary:
+      background: "0x000000"
+      foreground: "0xeaeaea"
+    normal:
+      black: "0x000000"
+      red: "0xd54e53"
+      green: "0xb9ca4a"
+      yellow: "0xe6c547"
+      blue: "0x7aa6da"
+      magenta: "0xc397d8"
+      cyan: "0x70c0ba"
+      white: "0xeaeaea"
+    bright:
+      black: "0x666666"
+      red: "0xff3334"
+      green: "0x9ec400"
+      yellow: "0xe7c547"
+      blue: "0x7aa6da"
+      magenta: "0xb77ee0"
+      cyan: "0x54ced6"
+      white: "0xffffff"
+
+  two_firewatch_dark: &two_firewatch_dark
+    primary:
+      background: "0x1e2127"
+      foreground: "0xdcdfe4"
+    normal:
+      black: "0x282c34"
+      red: "0xe06c75"
+      green: "0x98c379"
+      yellow: "0xe5c07b"
+      blue: "0x61afef"
+      magenta: "0xc678dd"
+      cyan: "0x56b6c2"
+      white: "0xdcdfe4"
+    bright:
+      black: "0x282c34"
+      red: "0xe06c75"
+      green: "0x98c379"
+      yellow: "0xe5c07b"
+      blue: "0x61afef"
+      magenta: "0xc678dd"
+      cyan: "0x56b6c2"
+      white: "0xdcdfe4"
+
+  two_firewatch_light: &two_firewatch_light
+    primary:
+      background: "0xf9f6f2"
+      foreground: "0x75551c"
+    normal:
+      black: "0x383a42"
+      red: "0xe45649"
+      green: "0x50a14f"
+      yellow: "0xc18401"
+      blue: "0x0184bc"
+      magenta: "0xa626a4"
+      cyan: "0x0997b3"
+      white: "0xfafafa"
+    bright:
+      black: "0x4f525e"
+      red: "0xe06c75"
+      green: "0x98c379"
+      yellow: "0xe5c07b"
+      blue: "0x61afef"
+      magenta: "0xc678dd"
+      cyan: "0x56b6c2"
+      white: "0xffffff"
+
+# colors: *firewatch
+
+# Theme starts here
+# Colors (Gruvbox dark)
 colors:
   # Default colors
   primary:
-    background: "#161821"
-    foreground: "#d2d4de"
-
-  # Normal colors
+    background: '0x282c34'
+    foreground: '0xebebff'
+  cursor:
+    text:     '0x282c34'
+    cursor:   '0xebebff'
   normal:
-    black: "#161821"
-    red: "#e27878"
-    green: "#b4be82"
-    yellow: "#e2a478"
-    blue: "#84a0c6"
-    magenta: "#a093c7"
-    cyan: "#89b8c2"
-    white: "#c6c8d1"
-
-  # Bright colors
+    black:    '0x202228'
+    red:      '0xe26b73'
+    green:    '0x6ac38a'
+    yellow:   '0xe6c176'
+    blue:     '0x5e9ccf'
+    magenta:  '0xdf671f'
+    cyan:     '0x51b6c3'
+    white:    '0xebebff'
   bright:
-    black: "#6b7089"
-    red: "#e98989"
-    green: "#c0ca8e"
-    yellow: "#e9b189"
-    blue: "#91acd1"
-    magenta: "#ada0d3"
-    cyan: "#95c4ce"
-    white: "#d2d4de"
-
+    black:    '0x525A67'
+    red:      '0xC9525A'
+    green:    '0x51AA71'
+    yellow:   '0xCDA85D'
+    blue:     '0x4583B6'
+    magenta:  '0xC64E06'
+    cyan:     '0x389DAA'
+    white:    '0xD2D2E6'
+  # Theme ends here
   cursor:
     style: Block
     unfocused_hollow: true

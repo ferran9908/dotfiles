@@ -9,9 +9,6 @@ let mapleader=" "
 " let localleader=" "
 nnoremap <Space> <Nop>
 
-nnoremap <Space>/ :call NERDComment(0,"toggle")<CR>
-vnoremap <Space>/ :call NERDComment(0,"toggle")<CR>
-
 " Better indenting
 vnoremap < <gv
 vnoremap > >gv
@@ -89,6 +86,9 @@ inoremap <expr> <c-k> ("\<C-p>")
 " Show all open buffers
 nnoremap <leader>b :Buffers<CR>
 
+" Delete Current Buffer
+nnoremap <leader>bd :bd<CR>
+
 " Remove highlights
 nnoremap <leader>n :nohl<CR>
 
@@ -100,3 +100,10 @@ nnoremap <leader>qa :qa<CR>
 nnoremap <C-s> :w<CR>
 nnoremap <leader>s :w<CR>
 
+" source current file
+nnoremap <leader>so :source %<CR>
+
+" PlugInstall
+nnoremap <leader>pi :PlugInstall<CR>
+nnoremap <leader>pu :PlugUpdate<CR>
+nnoremap <leader>pc :PlugClean<CR>
