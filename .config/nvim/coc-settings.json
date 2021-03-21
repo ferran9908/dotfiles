@@ -39,7 +39,8 @@
     "yaml",
     "json",
     "python",
-    "java"
+    "java",
+    "php"
   ],
   "coc.preferences.hoverTarget": "float",
 
@@ -116,7 +117,11 @@
   /* "coc.source.emoji.filetypes": [ */
   /*   "markdown" */
   /* ], */
-  "clangd.path": "/Users/ferran/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd"
+  "clangd.path": "/Users/ferran/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
+
+  
+  "tsserver.npm": "/usr/bin/npm"
+
 
   // lua
   //"lua.useSumnekoLs": true,

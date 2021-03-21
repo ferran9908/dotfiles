@@ -3,12 +3,18 @@ call plug#begin('~/.vim/plugged')
 " theme
 " Plug 'joshdick/onedark.vim'
 " Plug 'gruvbox-community/gruvbox'
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
+" Plug 'sonph/onehalf', { 'rtp': 'vim' }
 " Plug 'rakr/vim-two-firewatch'
 " Plug 'gosukiwi/vim-atom-dark'
 " Plug 'aadhav-n1/punchy.vim'
 
-" For better syntax highlighting
+" nvcode theme with treesitter
+" Plug 'christianchiarulli/nvcode-color-schemes.vim'
+" Plug 'nvim-treesitter/nvim-treesitter'
+
+Plug 'dracula/vim'
+
+"For better syntax highlighting
 Plug 'sheerun/vim-polyglot'
 
 " Coc
@@ -29,6 +35,9 @@ Plug 'neoclide/jsonc.vim'
 " vim-airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
+" For Git integrations
+Plug 'tpope/vim-fugitive'
 
 " smooth scrolling 
 Plug 'psliwka/vim-smoothie'
@@ -54,5 +63,18 @@ Plug 'Yggdroot/indentLine'
 
 " Time Tracker
 Plug 'wakatime/vim-wakatime'
+
+" Leetcode Plugin
+Plug 'ianding1/leetcode.vim'
+
+" Multiline support
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
+"Python autocomplete
+Plug 'davidhalter/jedi-vim'
+
+" Better tabs
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'romgrk/barbar.nvim'
 
 call plug#end()

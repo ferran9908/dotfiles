@@ -8,7 +8,7 @@ source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/cp.vim
 
 " theme
-source ~/.config/nvim/themes/onehalf.vim
+source ~/.config/nvim/themes/dracula.vim
 " For transparency
 highlight Normal guibg=none
 
@@ -20,3 +20,5 @@ source ~/.config/nvim/plug-config/cutlass.vim
 source ~/.config/nvim/plug-config/fzf.vim
 source ~/.config/nvim/plug-config/nvim-colorizer.vim
 source ~/.config/nvim/plug-config/indentLine.vim
+source ~/.config/nvim/plug-config/leetcode.vim
+source ~/.config/nvim/plug-config/git-fugitive.vim

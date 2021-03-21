@@ -107,3 +107,6 @@ nnoremap <leader>so :source %<CR>
 nnoremap <leader>pi :PlugInstall<CR>
 nnoremap <leader>pu :PlugUpdate<CR>
 nnoremap <leader>pc :PlugClean<CR>
+
+" Restart coc-tsserver
+nnoremap <leader>ts :CocCommand tsserver.restart<CR>

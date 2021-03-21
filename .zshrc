@@ -104,6 +104,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Set Default Editor
+export EDITOR='nvim'
+
 # aliases
 alias v="nvim"
 alias vim="nvim"
@@ -111,8 +114,8 @@ alias vi="nvim"
 alias lc="colorls -lA --sd"
 alias ls="colorls"
 alias vconfig="cd ~/.config/nvim"
-# alias g++="g++-10"
 alias zshconfig="nvim ~/.zshrc"
+alias cp="cd ~/Documents/Competitive-Programming"
 
 
 # nvm config
@@ -135,3 +138,12 @@ alias config='/usr/bin/git --git-dir=/Users/ferran/.cfg/ --work-tree=/Users/ferr
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+eval $(thefuck --alias)
+
+# PHP 
+export PATH="/usr/local/opt/php@7.4/bin:$PATH"
+export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
+
+# Elastic Beanstalk
+export PATH="/Users/ferran/.ebcli-virtual-env/executables:$PATH"
