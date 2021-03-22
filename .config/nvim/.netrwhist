@@ -1,12 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =0
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/ferran/Documents/Dev/GoPlinto'
+let g:netrw_dirhist_3='/Users/ferran/Documents/Dev/GoPlinto/admin-dashboard-service'
+let g:netrw_dirhist_2='/Users/ferran/Documents/Dev/GoPlinto/admin-dashboard-service/.vs'
+let g:netrw_dirhist_1='/Users/ferran/Documents/Dev/GoPlinto/admin-dashboard-service'
 let g:netrw_dirhist_0='/Users/ferran/.config/nvim/themes'
 let g:netrw_dirhist_9='/Users/ferran/Documents/Learn/typescript-course/menu-api/node_modules/@types'
 let g:netrw_dirhist_8='/Users/ferran/Documents/Learn/typescript-course/menu-api/node_modules'
 let g:netrw_dirhist_7='/Users/ferran/Documents/Dev/Pickyto/daily-order-details-aggregation-lambda/events'
 let g:netrw_dirhist_6='/Users/ferran/Documents/Dev/Pickyto/daily-order-details-aggregation-lambda'
 let g:netrw_dirhist_5='/Users/ferran/Documents/Dev/Pickyto/daily-order-details-aggregation-lambda/src'
-let g:netrw_dirhist_4='/Users/ferran/Documents/Dev/goplinto-dashboard/app/containers/ContactInfo'
-let g:netrw_dirhist_3='/Users/ferran/Documents/Dev/goplinto-dashboard/app/containers'
-let g:netrw_dirhist_2='/Users/ferran/Documents/Dev/goplinto-dashboard/app/containers/OnBoardStore'
-let g:netrw_dirhist_1='/Users/ferran/Documents/Dev/bug-tracker/src'

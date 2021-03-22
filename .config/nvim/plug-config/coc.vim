@@ -137,3 +137,9 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 nmap <space>e :CocCommand explorer<CR>
 
+augroup MyCocExplorer
+  autocmd!
+  autocmd VimEnter * sil! au! FileExplorer *
+  autocmd BufEnter * let d = expand('%') | if isdirectory(d) | silent! bd | exe 'CocCommand explorer ' . d | endif
+augroup END
+

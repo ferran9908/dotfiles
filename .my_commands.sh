@@ -12,3 +12,7 @@ function cpcommit() {
   git commit -m "$NOW"
   git push -u origin master
 }
+
+function leetcode() {
+  nvim -c 'LeetCodeList'
+}
